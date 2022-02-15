@@ -1,34 +1,33 @@
-
-table {
-    border:1px solid forestgreen;
-    width: 800px;
-    /* height: 100px; */
-  }
-    
-  th {
-    border-bottom: 1px solid black;
-  }
-    
-  td {
-    text-align: center;
-    padding: 0.5rem;
-    /* border-bottom: 1px solid black; */
-    /* border-right: 1px solid black; */
-    width: 50px;
+.price{
+  color: blue;
+}
 
 
-  }
-  .tab{
+
+  
+  .tab{ 
     
         /* width: 100%; */
         /* height: 100vh; */
-        display: flex;
+        /* display: flex;
         justify-content: center;
         align-items: center;
-  
- 
+   */
+   /* display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   height: 300px; */
+   /* display: grid;
+   grid-template-columns: repeat(3, 3fr);
+   grid-auto-rows: 100px; */
+   text-align: center;
+   float: left;
+   position: relative;
+   width: 26.67%; 
+   margin-left: 5% ;
+ }
 
-  }
+   
 .title{
 width: 100px;
  /* border-right: 1px solid black; */
@@ -36,12 +35,35 @@ width: 100px;
 
 
 }
-/* .price{ */
-    /* border-right: 1px solid black; */
-/* } */
+
+
+.img{
+  height: 200px;
+  width: 200px;
+}
+.tab>* {
+  flex: 1 1 160px;
+}
+.box{
+  width:250px;
+  height: 400px;
+ 
+}
+
+.plus{
+padding-right: 5px;
+border-color: red;
 
 
 
+}
+button{
+  cursor: pointer;
+  width: 50px;
+  background-color: white;
+  border-radius: 5px;
+}
 
-
-
+.minus{
+  border-color: green;
+}
